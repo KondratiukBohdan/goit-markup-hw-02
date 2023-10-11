@@ -27,18 +27,18 @@ a {
     text-decoration: none;
 }
 
-.nav-list-item {
+.nav-list-link {
     color: #2E2F42;
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.32px;
 }
 
-.nav-list-item:hover,
-.nav-list-item:focus {
+.nav-list-link:hover,
+.nav-list-link:focus {
     color: #404BBF;
 }
 
@@ -59,4 +59,32 @@ a {
 .nav-contacts-item:hover,
 .nav-contacts-item:focus {
     color:#404BBF;
+}
+
+.hero {
+    background-color: #2e2f42;
+}
+
+.hero-title{
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
+.hero-btn{
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em ;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color:#404BBF;
 }
